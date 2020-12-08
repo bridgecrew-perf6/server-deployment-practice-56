@@ -22,7 +22,7 @@ app.get('/data', stamper, (req, res) => {
 });
 
 app.get('/bad', (req, res, next) => {
-  next('you messsed up');
+  next('Sorry, we messed up!');
 });
 
 app.use(errorHandler);
